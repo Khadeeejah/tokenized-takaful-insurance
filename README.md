@@ -14,3 +14,6 @@ To ensure the integrity and fairness of the game, we must meet the following cri
 
 [Visit the WhitePaper to learn more about the project](https://khadijahsresume.notion.site/AQARA-68df5f18b4eb49a4936e2512d5837fdc?pvs=4)
 [Watch the demo video here]
+
+[Visit the WhitePaper to learn more about the project](https://khadijahsresume.notion.site/AQARA-68df5f18b4eb49a4936e2512d5837fdc?pvs=4)
+[Watch the demo video here]
