@@ -14,7 +14,7 @@ To ensure the integrity and fairness of the game, we must meet the following cri
 
 [Visit the WhitePaper to learn more about the project](https://khadijahsresume.notion.site/AQARA-68df5f18b4eb49a4936e2512d5837fdc?pvs=4)
 
-[Watch the demo video here]
+[Watch the demo video here](https://youtu.be/-rDvYqsJ7Kw)
 
 <img width="1507" alt="Screenshot 2024-08-20 at 17 51 17" src="https://github.com/user-attachments/assets/c9fa82f1-9b34-483b-8f5e-62c8334e27e4">
 <img width="1504" alt="Screenshot 2024-08-20 at 17 40 14" src="https://github.com/user-attachments/assets/02c0581c-f2aa-4adf-a785-f4a70360cf85">
