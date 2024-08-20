@@ -10,17 +10,17 @@ import {
   Spacer,
 } from '@chakra-ui/react'
 import Image from 'next/image'
-import Logo from '../../img/celo.svg'
+import Logo from '../../img/celo1.svg'
 import NextLink from 'next/link'
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
 import { useState } from 'react'
 
 const navList = [
-  { title: 'DAO Proposal ', path: 'https://celo.stake.id/#/proposal/85' },
-  { title: 'About', path: '#about' },
-  { title: 'Blog', path: '#blogs' },
-  { title: 'Team', path: '#team-section' },
-  { title: 'FAQs', path: '#faqs' },
+  { title: 'WhitePaper', path: 'https://khadijahsresume.notion.site/AQARA-68df5f18b4eb49a4936e2512d5837fdc' },
+  { title: 'About', path: '' },
+  { title: 'Hedera Services', path: '' },
+  { title: 'Features', path: '' },
+  { title: 'Team', path: '#faqs' },
 ]
 
 export default function Navbar() {
@@ -36,6 +36,7 @@ export default function Navbar() {
       alignItems="center"
       position="fixed"
       width="100%"
+      height="15%"
       // boxShadow="xl"
     >
       <HStack>
@@ -43,9 +44,8 @@ export default function Navbar() {
           <Image src={Logo} alt="celo" />
         </Link>
 
-        <Heading as="h3" size="lg">
+        <Heading as="h3" size="sm">
           <NextLink href="/home" passHref>
-            Africa DAO
           </NextLink>
         </Heading>
       </HStack>

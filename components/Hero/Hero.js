@@ -37,7 +37,7 @@ const Hero = () => {
           lineHeight="normal"
           mb={{ base: '20px', sm: '40px', md: '40px' }}
         >
-          Driving Web3 Adoption Across Africa
+          Revolutionize your financial protection with blockchain technology.
         </Heading>
         <Text
           as="p"
@@ -51,10 +51,9 @@ const Hero = () => {
           mb={{ base: '29px', sm: '20px', md: '50px' }}
           pr="80px"
         >
-          Connect with a dynamic community that includes developers, designers,
-          founders, and avid Web3 users pioneering blockchain technology
-          advancements in Africa. Join us on the leading edge of the digital
-          revolution!
+          Aqara is a decentralized, ethical insurance platform powered by Hedera, offering transparent, 
+          community-driven coverage with tokenized ownership and gamified rewards.
+          
         </Text>
       </Box>
 

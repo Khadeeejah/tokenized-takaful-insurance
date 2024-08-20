@@ -1,7 +1,5 @@
 import { FaGithub, FaSlack, FaTelegramPlane, FaTwitter } from 'react-icons/fa'
-import Image from 'next/image'
-import Logo from '../../img/image.svg'
-import NextLink from 'next/link'
+
 import { Heading, Box, Text, Link, Container, Flex } from '@chakra-ui/react'
 
 const resources = [
@@ -23,11 +21,11 @@ const community = [
   {
     icon: <FaSlack />,
     url:
-      'https://join.slack.com/t/celoafricadao/shared_invite/zt-281ldsznn-2ConLaV739tICqklwsg3Tw',
+      '',
   },
-  { icon: <FaTelegramPlane />, url: 'https://telegram.com' },
-  { icon: <FaTwitter />, url: 'https://twitter.com/CeloAfricaDao' },
-  { icon: <FaGithub />, url: 'https://github.com/Khadeeejah/celo-africa-dao' },
+  { icon: <FaTelegramPlane />, url: '' },
+  { icon: <FaTwitter />, url: '' },
+  { icon: <FaGithub />, url: '' },
 ]
 
 const date = new Date()
@@ -35,16 +33,10 @@ const currentYear = date.getFullYear()
 
 const Footer = () => {
   return (
-    <Container as="footer" maxW="auto" bg="#FCF951" py="40px">
+    <Container as="footer" maxW="auto" bg="#1A0329" py="20px">
       <Flex gap="4" wrap="wrap" alignItems="center">
         <Link href="/">
-          <Image src={Logo} alt="celo" />
         </Link>
-        <NextLink href="/">
-          <Heading as="h3" fontFamily="PT-Serif" fontSize="40" color="#1C1C1C">
-            Africa DAO
-          </Heading>
-        </NextLink>
       </Flex>
 
       <Flex w="90%" mt="10" justifyContent="space-between" wrap="wrap" gap="5">
@@ -54,12 +46,13 @@ const Footer = () => {
             fontSize="xl"
             fontWeight="400"
             fontFamily="PT-sherif"
+             color="#fff"
           >
             Resources
           </Heading>
 
           {resources.map((item, i) => (
-            <Text fontSize="lg" fontWeight="200" key={i}>
+            <Text fontSize="lg" fontWeight="200" color="#fff" key={i}>
               <Link>{item.title}</Link>
             </Text>
           ))}
@@ -71,12 +64,13 @@ const Footer = () => {
             fontSize="xl"
             fontWeight="400"
             fontFamily="PT-sherif"
+            color="#fff"
           >
             Foundation
           </Heading>
 
           {foundation.map((item, i) => (
-            <Text fontSize="lg" fontWeight="200" key={i}>
+            <Text fontSize="lg" fontWeight="200" color="#fff"key={i}>
               <Link>{item.title}</Link>
             </Text>
           ))}
@@ -88,12 +82,13 @@ const Footer = () => {
             fontSize="xl"
             fontWeight="400"
             fontFamily="PT-sherif"
+            color="#fff"
           >
             Developer
           </Heading>
 
           {developers.map((item, i) => (
-            <Text fontSize="lg" fontWeight="200" key={i}>
+            <Text fontSize="lg" fontWeight="200"color="#fff" key={i}>
               <Link>{item.title}</Link>
             </Text>
           ))}
@@ -109,11 +104,12 @@ const Footer = () => {
             fontWeight="400"
             fontFamily="PT-sherif"
             textAlign={{ base: 'left', md: 'center' }}
+            color="#fff"
           >
             Join the community
           </Heading>
 
-          <Box width="100%" display="flex">
+          <Box width="100%" display="flex" color="#fff">
             {community.map((item, i) => (
               <Text margin={2} fontSize="4xl" key={i}>
                 <Link display="inline" href={item.url} isExternal>
@@ -163,11 +159,12 @@ const Footer = () => {
         fontSize="lg"
         fontFamily="sofia-san"
         fontWeight="400"
+        color="#fff"
       >
         <Text>
           <Link href="#">Privacy Policy</Link>
         </Text>
-        <Text>&copy; {currentYear} Celo Inc.</Text>
+        <Text>&copy; {currentYear} Aqara Inc.</Text>
         <Text>
           <Link href="#">Terms of Service</Link>
         </Text>

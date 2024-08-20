@@ -1,21 +1,18 @@
 export const labelData = [
-  { label: 'Blogs' },
-  { label: 'Events' },
-  { label: 'Videos' },
+  { label: '1' },
+  { label: '2' },
+  
 ]
 
 export const blogData = [
   {
     articleImg: require('../../img/blogheader.avif'),
-    authorAvatar: require('../../img/khadijat.webp'),
-    author: 'Khadijah Amusat',
-    datePosted: 'Aug 18th, 2023',
+  
     headline: 'Writing For Celo Africa DAO',
     lead:
       ' If Celo or blockchain development is a new frontier for you, our beginner tutorials are a perfect starting point. These guides provide a comprehensive introduction...',
     button1: 'Read more',
-    // button2: 'Project utility',
-    // timeToRead: '3 mins read',
+  
   },
   {
     articleImg: require('../../img/blogheader-2.avif'),

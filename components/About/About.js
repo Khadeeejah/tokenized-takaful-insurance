@@ -59,7 +59,7 @@ const About = () => {
               fontFamily="PT Serif"
               mb="12px"
             >
-              What is Celo Africa DAO?
+              What is Aqara?
             </Heading>
 
             <Text
@@ -68,11 +68,9 @@ const About = () => {
               fontWeight="200px"
               mb="15px"
             >
-              Celo Africa DAO is a dynamic initiative committed to promoting
-              Celo&apos;s presence in Africa across various key focus areas. The
-              DAO actively engages with and supports emerging Web3 talent
-              locally, fostering relationships with incubator programs and
-              developers to empower those interested in building on Celo.
+              Aqara is a decentralized insurance platform built on the Hedera network,
+               offering ethical and transparent takaful coverage. It allows users to pool contributions, 
+               tokenize ownership, and engage in gamified rewards, all while ensuring security and community-driven participation.
             </Text>
 
             <Text
@@ -80,14 +78,6 @@ const About = () => {
               fontFamily="Sofia Sans"
               fontWeight="200px"
             >
-              This includes providing essential support for projects, with the
-              potential for further funding from the Celo Ecosystem. The DAO
-              plays a crucial role in community education and university
-              outreach, guiding new members through the Celo ecosystem and
-              conducting outreach programs in universities to ensure widespread
-              understanding and adoption of Celo within the community and is
-              dedicated to building market awareness and establishing a robust
-              brand presence by strategically distributing content.
             </Text>
           </Box>
         </Flex>
@@ -101,7 +91,7 @@ const About = () => {
               fontFamily="PT Serif"
               mb="12px"
             >
-              How does the DAO work?
+              How It Works
             </Heading>
 
             <Text
@@ -110,24 +100,12 @@ const About = () => {
               fontWeight="200px"
               mb="15px"
             >
-              The Celo Africa DAO operates by focusing on key areas to enhance
-              the growth and development of the Celo ecosystem. Firstly, it aims
-              to attract emerging Web3 talent locally through incubator programs
-              and developer relations, supporting projects interested in
-              building on Celo, with the potential for funding from the Celo
-              Ecosystem.
-            </Text>
-            <Text
-              fontSize={{ md: '22px', base: '18px' }}
-              fontFamily="Sofia Sans"
-              fontWeight="200px"
-            >
-              Also, it strives to build market awareness and brand positioning
-              by distributing content, translating news into local languages,
-              hosting events, and educating the community about ecosystem
-              projects and programs. Through these initiatives, the Celo Africa
-              DAO plays a vital role in fostering a vibrant and inclusive Celo
-              community.
+    Aqara operates by allowing users to contribute to a collective insurance pool,
+  where each members contribution is tokenized into fractional ownership.
+  When needed, claims can be easily submitted 
+  for review and processing through the platform. 
+  Additionally, users can engage with the platform to earn rewards, 
+  making the insurance experience both secure and rewarding.
             </Text>
           </Box>
 
@@ -149,7 +127,7 @@ const About = () => {
               fontFamily="PT Serif"
               mb="12px"
             >
-              How to be a part of the DAO?
+              How to Start
             </Heading>
 
             <Text
@@ -158,22 +136,16 @@ const About = () => {
               fontWeight="200px"
               mb="15px"
             >
-              Embark on your journey with the Celo Africa DAO by actively
-              participating in local universities Web3 initiatives, connecting
-              with like-minded enthusiasts in the community, and expressing your
-              passion for blockchain technology.
+             Getting started with Hedera Takaful is simple. Create your account, choose your coverage plan, 
+             and make your initial contribution. Upon joining, you’ll receive tokenized ownership in the insurance pool. 
+             From there, you can explore the platform’s features, including claim submissions and earning rewards through 
+             active participation.
             </Text>
             <Text
               fontSize={{ md: '22px', base: '18px' }}
               fontFamily="Sofia Sans"
               fontWeight="200px"
             >
-              Dive into engaging conversations, share ideas, and explore
-              collaborative opportunities within our welcoming community. To
-              take your involvement a step further, consider applying to become
-              a Core contributor through our various bounties, contributing to
-              our mission of fostering growth, diversity and awareness in the
-              blockchain space.
             </Text>
             <Button
               rightIcon={<ArrowForwardIcon />}
@@ -193,61 +165,12 @@ const About = () => {
               alignItems="center"
             >
               <Link href="https://join.slack.com/t/celoafricadao/shared_invite/zt-281ldsznn-2ConLaV739tICqklwsg3Tw">
-                Join the DAO
+                Join The community
               </Link>
             </Button>
           </Box>
         </Flex>
-        {/* 
-      <Flex columnGap="61px" alignItems="center">
-        <ChakraBox display={["none", "none", "flex", "flex"]}>
-          <Image src={Feed} />
-        </ChakraBox>
-
-        <Box as="div" width={{ base: "700px", "2xl": "100%" }} pb="291px">
-          <Heading as="h2" 
-            fontSize={{md: "40px", sm: "22px"}}
-            fontWeight="700px"
-            fontFamily="PT Serif"
-            mb="12px"
-          >
-            How to be a part of the DAO?
-          </Heading>
-
-          <Text fontSize="24px" fontFamily="Sofia Sans" fontWeight="200px" mb="15px">
-            Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis. Class
-            aptent taciti sociosqu ad litora torquent per conubia nostra, per
-            inceptos himenaeos. Curabitur tempus urna at turpis condimentum
-            lobortis. Ut commodo efficitur neque. Ut diam quam, semper iaculis
-            condimentum ac, vestibulum eu nisl.
-          </Text>
-          <Text fontSize="24px" fontFamily="Sofia Sans" fontWeight="200px">
-            Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis. Class
-            aptent taciti sociosqu ad litora torquent per conubia nostra, per
-            inceptos himenaeos. Curabitur tempus urna at turpis condimentum
-            lobortis. Ut commodo efficitur neque. Ut diam quam, semper iaculis
-            condimentum ac, vestibulum eu nisl.
-          </Text>
-
-          <Button
-            rightIcon={<ArrowForwardIcon />}
-            bg="#FCF951"
-            borderRadius="60px"
-            width="311px"
-            height="90px"
-            gap="15px"
-            mt="72px"
-            border="1px solid rgba(103, 103, 103, 0.75)"
-            fontSize="24px"
-            fontFamily="Sofia Sans"
-            fontWeight="400px"
-          >
-            <Link href="/">Join the DAO</Link>
-          </Button>
-        </Box>
-      </Flex> */}
+        {}
       </Container>
     </>
   )
